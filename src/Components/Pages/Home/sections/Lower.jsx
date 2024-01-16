@@ -11,7 +11,7 @@ export default function Bottom() {
 
   return (
     <article className={articleStyle}>
-        <img className={photoStyle} src="src\assets\photos\oil-forest-blend.jpg" alt="two small bottles of forest blend beard oil" />      
+        <img className={photoStyle} src="\images\oil-forest-blend.jpg" alt="two small bottles of forest blend beard oil" />      
         <div className={divStyle}>
             <h2 className={textStyle} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quaerat sunt incidunt? Quos, ex. Cum consequuntur ab ut exercitationem consequatur. Sequi, esse. Voluptatem debitis ullam culpa optio? Repudiandae, nam quos?</h2>
             <Link className={linkStyle} to='/contact'>CONTACT</Link>

@@ -22,8 +22,8 @@ function toggleMenu() {
 
   return (
     <nav className={navStyle}>
-        <Link to='/' className='hidden md:flex h-16'><img src="src\assets\photos\ROUGUE BEARD OIL.png" alt="" /></Link>
-        <Link to='/'><img src="src\assets\photos\lion-head-oil.jpg" alt="lion head" className={lionHead}/></Link>
+        <Link to='/' className='hidden md:flex h-16'><img src="public\images\ROUGUE BEARD OIL.png" alt="" /></Link>
+        <Link to='/'><img src="\images\lion-head-oil.jpg" alt="lion head" className={lionHead}/></Link>
 
 
         <div onClick={toggleMenu} className={hambmburger}>{openMenu ? <IoCloseSharp size={32} /> : <FaBars size={28} />}</div>
