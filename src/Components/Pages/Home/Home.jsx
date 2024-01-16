@@ -1,5 +1,5 @@
 import React from 'react'
-import Top  from './sections/top'
+import Top from './sections/top'
 import Middle from './sections/middle'
 import Bottom from './sections/bottom'
 
