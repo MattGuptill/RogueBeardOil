@@ -6,7 +6,7 @@ import React from 'react'
 export default function Top() {
     
     
-    const articleStyle = "bg-[url('../public/images/forest.jpg')] h-dvh bg-cover flex justify-center items-center"
+    const articleStyle = "bg-[url('../images/forest.jpg')] h-dvh bg-cover flex justify-center items-center"
     const textConStyle = "w-11/12 flex flex-col text-center pt-20  "
     const titleStyle = "text-6xl font-titles md:text-8xl pb-10"
     const textStyle = 'text-lg md:text-3xl'
