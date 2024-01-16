@@ -4,6 +4,7 @@ import Middle from './sections/Center'
 import Bottom from './sections/bottom'
 
 
+
 export default function Home () {
   return (
     <> 
