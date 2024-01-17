@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import woodOil from 'src/assets/photos/oil-on-wood.jpg'
 
 export default function Middle () {
     
@@ -12,7 +13,7 @@ export default function Middle () {
 
     return (
     <article className={articleStyle}>
-            <img className={photoStyle} src="\images\oil-on-wood.jpg" alt="beach day beard oil resting on top of wood slate" />
+            <img className={photoStyle} src={woodOil} alt="beach day beard oil resting on top of wood slate" />
             <div className={divStyle}>
                 <h2 className={textStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ea officia itaque, temporibus hic incidunt, tenetur vel atque ullam pariatur eius sapiente distinctio possimus natus! Voluptate officiis repudiandae repellendus? Quas.</h2>
                 <Link className={linkStyle} to='/products'>PRODUCTS</Link>

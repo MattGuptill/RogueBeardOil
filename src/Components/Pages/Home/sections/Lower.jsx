@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import forestBlend from 'src/assets/photos/oil-forest-blend.jpg'
 
 export default function Bottom() {
 
