@@ -24,7 +24,7 @@ function toggleMenu() {
 
   return (
     <nav className={navStyle}>
-        <Link to='/' className='hidden md:flex h-16'><img src="src/assets/photos/ROUGUE BEARD OIL.png" alt="rogue beard oil logo" /></Link>
+        <Link to='/' className='hidden md:flex h-16'><img src="/src/assets/photos/ROUGUE BEARD OIL.png" alt="rogue beard oil logo" /></Link>
         <Link to='/'><img src="public\images\lion-head-oil.jpg" alt="lion head" className={lionHead}/></Link>
 
 
