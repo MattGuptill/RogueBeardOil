@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import woodOil from 'src/assets/photos/oil-on-wood.jpg'
+import woodOil from '/src/assets/photos/oil-on-wood.jpg'
 
 export default function Middle () {
     
