@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from '/src/assets/photos/ROUGUE-BEARD-OIL.png'
-import headLogo from 'src/assets/photos/lion-head-oil.jpg' 
+import headLogo from '/src/assets/photos/lion-head-oil.jpg' 
 
 import { FaBars } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
