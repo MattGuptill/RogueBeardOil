@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from '/src/assets/photos/ROUGUE-BEARD-OIL.png'
-import lionHead from 'src/assets/photos/lion-head-oil.jpg' 
+import headLogo from 'src/assets/photos/lion-head-oil.jpg' 
 
 import { FaBars } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
@@ -26,7 +26,7 @@ function toggleMenu() {
   return (
     <nav className={navStyle}>
         <Link to='/' className='hidden md:flex h-16'><img src={logo} alt="rogue beard oil logo" /></Link>
-        <Link to='/'><img src={lionHead} alt="lion head" className={lionHead}/></Link>
+        <Link to='/'><img src={headLogo} alt="lion head" className={lionHead}/></Link>
 
 
         <div onClick={toggleMenu} className={hambmburger}>{openMenu ? <IoCloseSharp size={32} /> : <FaBars size={28} />}</div>
