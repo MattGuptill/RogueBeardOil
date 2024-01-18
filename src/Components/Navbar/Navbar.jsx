@@ -9,11 +9,12 @@ import { NavLink, Link } from 'react-router-dom';
 export default function Navbar ()  {
 
 const navStyle = 'fixed w-full flex flex-col justify-center items-center py-2 md:flex-row md:justify-between md:px-4 bg-black text-white'
-const menuOpen = 'flex justify-center pt-4'
+const menuOpen = 'flex justify-center pt-4 md:pt-0'
 const hambmburger = 'absolute right-5 top-8 md:hidden'
-const linkListStyle = 'flex flex-col justify-evenly pb-4 h-56 items-center md:flex-row md:pb-0 md:h-0 '
-const linkStyle = 'flex px-4 py-2 hover:text-black hover:bg-white font-titles text-3xl transtion-all duration-300 '
-const lionHead = 'h-20 rounded-full md:hidden lg:flex lg:ml-20  '
+const linkListStyle = 'flex flex-col justify-evenly pb-7 h-72 items-center md:flex-row md:pb-0 md:h-0 '
+const linkStyle = 'flex px-3 py-1 hover:text-black hover:bg-white rounded-lg font-titles text-2xl transtion-all duration-300 '
+const lionHead = 'h-20 rounded-full md:hidden lg:flex lg:ml-20'
+const shopLink = 'text-2xl px-4 py-2 mt-2 bg-green-900 rounded-lg tracking-wider transition-all duration-200 hover:bg-green-600 md:mt-0 md:ml-2  '
 
 
 const [openMenu, setOpenMenu] = useState(false)
@@ -40,6 +41,7 @@ function toggleMenu() {
             <li><NavLink className={linkStyle} to='/about'>About</NavLink></li>
             <li><NavLink className={linkStyle} to='/contact'>Contact</NavLink></li>
             <li><NavLink className={linkStyle} to='/products'>Products</NavLink></li>
+            <a className={shopLink} href="/">Shop</a>
           </ul>
         </div>
     </nav>
