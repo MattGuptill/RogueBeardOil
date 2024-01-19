@@ -6,13 +6,13 @@ import lionWhite from '/src/assets/photos/lion-head-white.jpg'
 export const Contact = () => {
 
   const articleStyle = ' flex flex-col pt-24 lg:flex-row'
-  const sectionStyleOne = 'lg:w-1/2 py-6 h-fit bg-white flex flex-col items-center pt-6'
+  const sectionStyleOne = 'lg:w-1/2 py-6 h-fit md:h-dvh bg-white flex flex-col items-center pt-6'
   const imageStyle = 'w-40 rounded-full'
   const textBox = 'flex flex-col items-center pt-7'
   const title = ' font-titles text-3xl'
   const text = 'pt-6'
   
-  const sectionStyleTwo = 'lg:w-1/2 h-fit py-6 bg-black flex flex-col items-center pt-6'
+  const sectionStyleTwo = 'lg:w-1/2 h-fit md:h-dvh py-6 bg-black flex flex-col items-center pt-6'
   const formBox = 'flex flex-col '
   const label = 'text-white'
   const input = 'mb-5'
