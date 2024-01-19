@@ -13,7 +13,7 @@ const menuOpen = 'flex justify-center pt-4 md:pt-0'
 const hambmburger = 'absolute right-5 top-8 md:hidden'
 const linkListStyle = 'flex flex-col justify-evenly pb-7 h-72 items-center md:flex-row md:pb-0 md:h-0 '
 const linkStyle = 'flex px-3 py-1 hover:text-black hover:bg-white rounded-lg font-titles text-2xl transtion-all duration-300 '
-const lionHead = 'h-20 rounded-full md:hidden lg:flex lg:ml-20'
+const lionHead = 'h-20 rounded-full md:hidden lg:flex lg:ml-32'
 const shopLink = 'text-2xl px-4 py-2 mt-2 bg-green-900 rounded-lg tracking-wider transition-all duration-200 hover:bg-green-600 md:mt-0 md:ml-2  '
 
 
