@@ -12,7 +12,7 @@ export const Shop = () => {
   const title = 'font-titles text-black text-3xl underline lg:place-self-start lg:pl-24'
   const textCon = 'flex flex-col items-center lg:w-[50%]'
   const text = 'text-white px-5 text-center py-7  '
-  const link = 'text-2xl px-8 py-2 bg-white'
+  const link = 'text-2xl px-8 py-2 bg-white rounded-md hover:bg-green-900 hover:text-white trasition-all duration-200'
 
  
 
