@@ -1,20 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import beachDay from '/src/assets/photos/beach-day-white.jpg'
 import forestBlend from '/src/assets/photos/forest-blend-white.jpg'
-import ShopifyBuyButtonBeach from './Home/sections/buy-button'
-import ShopifyBuyButtonForest from './Home/sections/buy-button-forest'
 
 
-export const Shop = () => {
+export const Products = () => {
 
-  const article = ''
-  const beach = 'bg-[url("../images/beach.jpg")] h-fit lg:h-dvh bg-cover flex flex-col justify-center items-center pt-32 pb-10'
-  const forest = 'bg-[url("../images/forest-products.jpg")] h-fit lg:h-dvh bg-cover flex flex-col justify-center items-center pt-10 pb-10'
+  const article = 'pt-10'
+  const beach = 'bg-[url("../images/beach.jpg")] h-fit bg-cover flex flex-col justify-center items-center pt-10 pb-10'
+  const forest = 'bg-[url("../images/forest-products.jpg")] h-fit  bg-cover flex flex-col justify-center items-center pt-10 pb-10'
   const oilCon = 'w-11/12 h-fit  rounded-md mx-4 mt-4 py-7 flex flex-col items-center justify-evenly lg:flex-row lg:w-4/5 lg:mx-0 lg:px-10 lg:h-2/3'
-  // const images = 'w-2/3 rounded-md lg:h-72 lg:w-auto'
+  const imageCon = 'flex flex-col items-center flex flex-col justify-between h-full'
+  const images = 'w-2/3 rounded-md md:w-1/4 lg:h-96 lg:w-auto '
   const title = 'font-titles text-black text-3xl underline '
-  const textCon = 'flex flex-col items-center lg:w-[50%] bg-black/50'
-  const text = 'lg:text-3xl text-white font-semibold px-5 text-center py-7  '
+  const textCon = 'flex flex-col items-center mt-4 lg:m-auto lg:w-[60%] bg-black/50 rounded-md'
+  const text = 'lg:text-2xl text-white font-semibold px-5 text-center py-7  '
+  const link = 'px-7 py-2 bg-green-900 text-white border-2 border-black rounded-md mt-4 font-titles text-3xl'
 
  
 
@@ -22,9 +23,10 @@ export const Shop = () => {
     <article className={article}>
       <section className={beach}>
         <div className={oilCon}>
-        <div className='flex flex-col items-center'>
+        <div className={imageCon}>
           <h1 className={title}>BEACH BLEND</h1>
-          <ShopifyBuyButtonBeach  />
+          <img className={images} src={beachDay} alt="picture of a bottle of beach day beard oil with white background" />
+          <Link className={link} to='/shop'>BUY NOW</Link>
         </div>
           <div className={textCon}>
             <p className={text}>
@@ -39,6 +41,7 @@ export const Shop = () => {
             </p>
             
           </div>
+          
         </div>
 
         <a className='hidden' href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a>
@@ -48,9 +51,10 @@ export const Shop = () => {
         
         <div className={oilCon}>
 
-        <div className='flex flex-col items-center '>
+        <div className={imageCon}>
         <h1 className={title}>FOREST BLEND</h1>
-         <ShopifyBuyButtonForest />
+         <img className={images} src={forestBlend} alt="picture of forest blend beard oil on a white background" />
+         <Link className={link} to='/shop'>BUY NOW</Link>
          </div>
           <div className={textCon}>
             <p className={text}>Introducing our &quot;Forest Blend&quot; beard oil, the secret potion to transform your facial
@@ -65,6 +69,7 @@ export const Shop = () => {
             </p>
            
           </div>
+          
         </div>
       </section>
     </article>
