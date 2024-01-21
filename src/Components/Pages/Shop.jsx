@@ -21,11 +21,11 @@ export const Shop = () => {
   return (
     <article className={article}>
       <section className={beach}>
-        <h1 className={title}>BEACH BLEND</h1>
         <div className={oilCon}>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center bg-white'>
+          <h1 className={title}>BEACH BLEND</h1>
           <ShopifyBuyButtonBeach />
-          </div>
+        </div>
           <div className={textCon}>
             <p className={text}>
               Dive into the ultimate beachside bliss with our &quot;Beach Day&quot; beard oil blend!
@@ -48,7 +48,7 @@ export const Shop = () => {
         
         <div className={oilCon}>
 
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center bg-white'>
         <h1 className={title}>FOREST BLEND</h1>
          <ShopifyBuyButtonForest />
          </div>
