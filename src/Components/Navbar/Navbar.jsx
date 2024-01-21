@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '/src/assets/photos/ROUGUE-BEARD-OIL.png'
+import logo from '/src/assets/photos/LOGO.png'
 import headLogo from '/src/assets/photos/lion-head-oil.jpg' 
 
 import { FaBars } from "react-icons/fa";
