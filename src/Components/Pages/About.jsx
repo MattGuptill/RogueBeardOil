@@ -4,8 +4,8 @@ import rogueThomas from '/src/assets/photos/Rogue-Thomas.jpg'
 
 export const About = () => {
   
-  const articleStyle ='pt-20'
-  const conStyle =  'h-fit py-10 flex flex-col justify-evenly items-center px-7 lg:flex-row lg: '
+  const articleStyle ='pt-24'
+  const conStyle =  'h-fit py-10 flex flex-col justify-evenly items-center px-7 lg:flex-row lg:pt-20 '
   const imageStyle = 'w-64 rounded-full lg:h-1/4 lg:w-1/4 border-black '
   const divStyle = 'text-center flex flex-col justify-center items-center lg:w-1/2 pt-10'
   const titleStyle = 'font-titles text-3xl underline pb-4 lg:text-5xl'
