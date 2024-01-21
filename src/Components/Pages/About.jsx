@@ -1,6 +1,7 @@
 import React from 'react'
 import aboutPhoto from '/src/assets/photos/oil-forest-blend.jpg'
 
+
 export const About = () => {
   
   const articleStyle ='pt-20'
@@ -10,16 +11,21 @@ export const About = () => {
   const titleStyle = 'font-titles text-3xl underline pb-4 lg:text-5xl'
   const textStyle = 'lg:w-2/3 lg:text-2xl' 
 
+
+
   return (
     <article className={articleStyle}>
       <div className={conStyle}>
         <img className={imageStyle} src={aboutPhoto} alt="photo of thomas quinn" />
         <div className={divStyle}>
           <h1 className={titleStyle}>FROM ONE BEARD TO ANOTHER</h1>
-          <p className={textStyle}>I am Thomas Quinn, hailing from Dover, New Hampshire. Throughout my journey in the realm of bearded life, the aspiration to create my own line of beard oil has been a persistent dream. Drawing inspiration from scents and blends found in beard oils worldwide, I dedicated years to formulating a product that promotes the health of beards. Amid the busyness of life and the growth of my family, comprising my supportive wife and two boys, my dream has materialized into a reality.
-</p>
+          <p className={textStyle}>
+            I am Thomas Quinn, hailing from Dover, New Hampshire. Throughout my journey in the realm of bearded life, the aspiration to create my own line of beard oil has been a persistent dream. Drawing inspiration from scents and blends found in beard oils worldwide, I dedicated years to formulating a product that promotes the health of beards. Amid the busyness of life and the growth of my family, comprising my supportive wife and two boys, my dream has materialized into a reality.
+          </p>
         </div>
       </div>
+
+
     </article>
   )
 }
