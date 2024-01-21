@@ -3,9 +3,10 @@ import React from 'react'
 export default function ShopifyBuyButtonForest () {
     return (
         <>
+        
+
+        <div className='bg-white'>
         <div id='product-component-1705793595499'></div>
-
-
         {function () {
         let scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
         if (window.ShopifyBuy) {
@@ -100,6 +101,7 @@ export default function ShopifyBuyButtonForest () {
         }
         }()
         }
+        </div>
         </>
     )
 }

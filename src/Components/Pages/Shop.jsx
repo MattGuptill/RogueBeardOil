@@ -22,9 +22,9 @@ export const Shop = () => {
     <article className={article}>
       <section className={beach}>
         <div className={oilCon}>
-        <div className='flex flex-col items-center bg-white'>
+        <div className='flex flex-col items-center'>
           <h1 className={title}>BEACH BLEND</h1>
-          <ShopifyBuyButtonBeach />
+          <ShopifyBuyButtonBeach  />
         </div>
           <div className={textCon}>
             <p className={text}>
@@ -48,7 +48,7 @@ export const Shop = () => {
         
         <div className={oilCon}>
 
-        <div className='flex flex-col items-center bg-white'>
+        <div className='flex flex-col items-center '>
         <h1 className={title}>FOREST BLEND</h1>
          <ShopifyBuyButtonForest />
          </div>

@@ -3,7 +3,7 @@ import React from 'react';
 export default function ShopifyBuyButtonBeach () {
  return (
     <>
-    
+        <div className='bg-white'>
         <div id='product-component-1705793510423'></div>
         
         {function () {
@@ -106,7 +106,7 @@ export default function ShopifyBuyButtonBeach () {
         }()
         }
         
-       
+        </div>
     
 </>
   );
