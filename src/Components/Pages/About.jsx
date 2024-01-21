@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutPhoto from '/src/assets/photos/oil-forest-blend.jpg'
+import rogueThomas from '/src/assets/photos/Rogue-Thomas.jpg'
 
 
 export const About = () => {
@@ -16,7 +16,7 @@ export const About = () => {
   return (
     <article className={articleStyle}>
       <div className={conStyle}>
-        <img className={imageStyle} src={aboutPhoto} alt="photo of thomas quinn" />
+        <img className={imageStyle} src={rogueThomas} alt="photo of thomas quinn" />
         <div className={divStyle}>
           <h1 className={titleStyle}>FROM ONE BEARD TO ANOTHER</h1>
           <p className={textStyle}>

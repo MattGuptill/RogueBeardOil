@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import woodOil from '/src/assets/photos/oil-on-wood.jpg'
+import rogueBeard from '/src/assets/photos/rogue-Beard.jpg'
 
 export default function Middle () {
     
@@ -13,7 +13,7 @@ export default function Middle () {
 
     return (
     <article className={articleStyle}>
-            <img className={photoStyle} src={woodOil} alt="beach day beard oil resting on top of wood slate" />
+            <img className={photoStyle} src={rogueBeard} alt="beach day beard oil resting on top of wood slate" />
             <div className={divStyle}>
                 <h2 className={textStyle}>
                   Grow a beard they said... It will be fun they said... And they were right! Especially with this Rogue Beard Oil.
