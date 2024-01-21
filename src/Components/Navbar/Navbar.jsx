@@ -41,7 +41,7 @@ function toggleMenu() {
             <li><NavLink className={linkStyle} to='/about'>About</NavLink></li>
             <li><NavLink className={linkStyle} to='/contact'>Contact</NavLink></li>
             <li><NavLink className={linkStyle} to='/products'>Products</NavLink></li>
-            <NavLink className={shopLink} href="/shop">Shop</NavLink>
+            <NavLink className={shopLink} to="/shop">Shop</NavLink>
           </ul>
         </div>
     </nav>

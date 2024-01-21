@@ -4,7 +4,9 @@ import Navbar  from './Components/Navbar/Navbar'
 import { About } from './Components/Pages/About'
 import { Contact } from './Components/Pages/Contact'
 import { Products } from './Components/Pages/Products'
-import Home  from './Components/Pages/Home/Home'
+import  Home   from './Components/Pages/Home/Home'
+import Shop from './Components/Pages/Shop/Shop'
+
 
 function App() {
   
@@ -17,6 +19,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/products' element={<Products/>} />
+        <Route path='/shop' element={<Shop />} />
       </Routes>
     </div>
   )
