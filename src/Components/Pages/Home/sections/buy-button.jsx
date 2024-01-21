@@ -41,13 +41,13 @@ export default function ShopifyBuyButtonBeach () {
                     options: {
             "product": {
                 "styles": {
-                "product": {
-                    "@media (min-width: 601px)": {
-                    "max-width": "calc(25% - 20px)",
-                    "margin-left": "20px",
-                    "margin-bottom": "50px"
-                    }
-                },
+                // "product": {
+                //     "@media (min-width: 601px)": {
+                //     "max-width": "calc(25% - 20px)",
+                //     "margin-left": "20px",
+                //     "margin-bottom": "50px"
+                //     }
+                // },
                 "button": {
                     "padding-left": "100px",
                     "padding-right": "100px"

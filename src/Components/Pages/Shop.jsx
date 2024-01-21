@@ -12,7 +12,7 @@ export const Shop = () => {
   const forest = 'bg-[url("../images/forest-products.jpg")] h-fit lg:h-dvh bg-cover flex flex-col justify-center items-center pt-10 pb-10'
   const oilCon = 'w-11/12 h-fit  rounded-md mx-4 mt-4 py-7 flex flex-col items-center justify-evenly lg:flex-row lg:w-4/5 lg:mx-0 lg:px-10 lg:h-2/3'
   // const images = 'w-2/3 rounded-md lg:h-72 lg:w-auto'
-  const title = 'font-titles text-black text-3xl underline lg:place-self-start lg:pl-24'
+  const title = 'font-titles text-black text-3xl underline '
   const textCon = 'flex flex-col items-center lg:w-[50%] bg-black/50'
   const text = 'lg:text-3xl text-white font-semibold px-5 text-center py-7  '
 
@@ -23,7 +23,9 @@ export const Shop = () => {
       <section className={beach}>
         <h1 className={title}>BEACH BLEND</h1>
         <div className={oilCon}>
+        <div className='flex flex-col items-center'>
           <ShopifyBuyButtonBeach />
+          </div>
           <div className={textCon}>
             <p className={text}>
               Dive into the ultimate beachside bliss with our &quot;Beach Day&quot; beard oil blend!
@@ -43,9 +45,13 @@ export const Shop = () => {
       </section>
 
       <section className={forest}>
-        <h1 className={title}>FOREST BLEND</h1>
+        
         <div className={oilCon}>
+
+        <div className='flex flex-col items-center'>
+        <h1 className={title}>FOREST BLEND</h1>
          <ShopifyBuyButtonForest />
+         </div>
           <div className={textCon}>
             <p className={text}>Introducing our &quot;Forest Blend&quot; beard oil, the secret potion to transform your facial
                                 fuzz into a wilderness wonder! Crafted with the essence of majestic cedarwood
