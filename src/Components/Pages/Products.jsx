@@ -7,8 +7,8 @@ import forestBlend from '/src/assets/photos/forest-blend-white.jpg'
 export const Products = () => {
 
   const article = 'pt-10'
-  const beach = 'bg-[url("../images/beach.jpg")] h-fit bg-cover flex flex-col justify-center items-center pt-10 pb-10'
-  const forest = 'bg-[url("../images/forest-products.jpg")] h-fit  bg-cover flex flex-col justify-center items-center pt-10 pb-10'
+  const beach = 'bg-[url("../images/beach.jpg")] h-fit xl:h-dvh bg-cover flex flex-col justify-center items-center pt-10 pb-10'
+  const forest = 'bg-[url("../images/forest-products.jpg")] h-fit xl:h-dvh bg-cover flex flex-col justify-center items-center pt-10 pb-10'
   const oilCon = 'w-11/12 h-fit  rounded-md mx-4 mt-4 py-7 flex flex-col items-center justify-evenly lg:flex-row lg:w-4/5 lg:mx-0 lg:px-10 lg:h-2/3'
   const imageCon = 'flex flex-col items-center flex flex-col justify-between h-full'
   const images = 'w-2/3 rounded-md md:w-1/4 lg:h-96 lg:w-auto '
